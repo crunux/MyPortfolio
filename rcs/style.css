@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/*navbar styling*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(0,0,0,0.1);
+    font-family: "Ubuntu",sans-serif;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span{
+    color: rgba(11,172,181,1);
+}
+
+.navbar .menu il{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu il a{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease; 
+}
+
+.navbar .menu il a:hover{
+    color: rgba(11,172,181,1);
+}
+
+/*home section styling*/
+
+.home{
+    display: flex;
+    background: linear-gradient(18deg, rgba(10,115,121,1) 0%, rgba(40,50,55,1) 32%);
+    height: 100vh;
+    color:#fff;
+    min-height: 500px;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.home .max-width{
+    /*margin: auto 0 auto 40px;*/
+    position: center;
+}
+
+.home .home-content{
+    margin-top: 1em;
+    padding: 2em;
+    position: flex;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow:0 8px 32px 0 rgba(10,115,121,0.37);
+    backdrop-filter: blur(2px);
+    /*border: 1px solid rgba(255, 255, 255, 0.18);*/
+}
+
+.home .home-content .text-1{
+    font-size: 18px;
+
+}
+
+.home .home-content .text-2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: -2px;
+}
+
+.home .home-content .text-3{
+    font-size: 30px;
+    margin: 5px 0;
+    
+}
+
+.home .home-content .text-3 span{
+    color: rgba(11,172,181,1);
+    font-weight: 500;
+}
