@@ -1,2 +1,4 @@
-# Myportfolio
-Este un proyecto personal en donde dearrollo mi portafolio personal paso a paso..!
+
+##MyPortFolio
+>Este un LandingPage personal en donde desarrollo mi portafolio paso a paso utilizando **HTML**, **CSS** and **JavaScript**.
+

@@ -1,4 +1,6 @@
 $(document).ready( () => {
+    
+    // scroll and navbar script
     $(window).scroll( () => {
         if(this.scrollY > 20){
             $('.navbar').addClass('sticky')
@@ -11,6 +13,7 @@ $(document).ready( () => {
 
     $('.menu-btn').click( () => {
         $('.navbar .menu').toggleClass("active");
-        $('.home .max-width').toggleClass("disable")
+        $('.home .max-width').toggleClass("disable");
+        $('.menu-btn i').toggleClass("active")
     });
 })
