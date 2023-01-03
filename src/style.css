@@ -204,6 +204,27 @@
         font-size: 20px;
  
     }
+
+    .content-center{
+        flex-direction: column;
+    }
+
+    .about .title{
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about .about-content .about-bio{
+        font-size: 16px;
+        max-width: 350px;
+        padding: 15px;
+    }
+
+    .about .about-content .img{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media (max-width: 480px){
@@ -215,6 +236,32 @@
         font-size: 15px;
  
     }
+
+    .content-center{
+        flex-direction: column;
+    }
+
+    .about .title{
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about-content{
+        width: 400px;
+    }
+
+    .about .about-content .about-bio{
+        font-size: 12px;
+        max-width: 250px;
+        padding: 15px;
+    }
+
+    .about .about-content .img{
+        width: 200px;
+        height: 200px;
+    }
+
 }
 
 /*About Setion*/
