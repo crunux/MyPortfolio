@@ -164,8 +164,6 @@ section .title::after{
 }
 
 
-/*About Setion*/
-
 /* About Me Styling */
 section{
     padding: 100px 0;
@@ -179,7 +177,7 @@ section{
     content: "who i am";
 }
 
-.about .about-content, .skills .skills-content{
+.about .about-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -240,19 +238,90 @@ section{
     background: linear-gradient(18deg,rgb(255, 255, 255) 10%, rgb(15, 170, 179) 40%);
 }
 
+.skills .skills-content{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-content .box-skills{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 50px;
+    font-size: 16px;
+}
+
+.skills-content .box-skills .card-skills{
+    width: 300px;
+    height: 275px;
+    padding: 1rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(13, 107, 112);
+    border-radius: 10px;
+    box-shadow:
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.032),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.048),
+    100px 100px 80px rgba(0, 0, 0, 0.06);
+}
+
+.skills-content .box-skills .card-skills .img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-content .box-skills .skill-icon{
+    width: 50px;
+}
+
+.skills-content .box-skills .card-skills .button{
+    display: inline-block;
+    background: rgba(11,172,181,1);
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(11,172,181,1);
+    transition: all 0.3s ease;
+}
+
+.skills-content .box-skills .card-skills .button:hover{
+    color: rgba(11,172,181,1);
+    background: #FFFFFF;
+}
 
 
 .skills .title::before{
     bottom: -900px;
 }
-
+.skills .title::after{
+    content: "what i know";
+    bottom: -913px;
+    color: rgb(255, 255, 255);
+    background: rgba(11,172,181,1);;
+}
 /* Responsive media query*/
 
 @media (max-width: 1300px){
     .home .max-width{
-        margin-left: 0;
-    }
-    .home .home-content {
         margin-left: auto;
         margin-right: auto;
     }
@@ -354,6 +423,11 @@ section{
     .about .about-content .right{
         flex: 100%
     }
+
+    .skills-content .box-skills{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+    }
 }
 
 @media (max-width: 816px){
@@ -376,6 +450,11 @@ section{
 @media (max-width: 716px){
     .max-width{
         width: 500px;
+    }
+
+    .skills-content .box-skills{
+        grid-template-columns: 1fr;
+        padding: 2rem 50px;
     }
 }
 
@@ -408,5 +487,9 @@ section{
 
     .skills .title::before{
         bottom: -1240px;
+    }
+
+    .skills .title::after{
+        bottom: -1252px;
     }
 }
