@@ -248,18 +248,18 @@ section{
 
 .skills-content .box-skills{
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
     grid-gap: 1rem;
-    padding: 1rem 50px;
+    padding: 2rem 50px;
     font-size: 16px;
 }
 
 .skills-content .box-skills .card-skills{
-    width: 300px;
-    height: 275px;
+    width: 150px;
+    height: 175px;
     padding: 1rem;
     color: #FFFFFF;
     cursor: pointer;
@@ -276,8 +276,8 @@ section{
 }
 
 .skills-content .box-skills .card-skills .img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     position: relative;
     border-radius: 45px;
     background-color: #FFFFFF;
@@ -287,7 +287,7 @@ section{
 }
 
 .skills-content .box-skills .skill-icon{
-    width: 50px;
+    width: 30px;
 }
 
 .skills-content .box-skills .card-skills .button{
@@ -425,7 +425,7 @@ section{
     }
 
     .skills-content .box-skills{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         padding: 2rem 50px;
     }
 }
@@ -453,7 +453,7 @@ section{
     }
 
     .skills-content .box-skills{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         padding: 2rem 50px;
     }
 }
