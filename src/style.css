@@ -320,7 +320,7 @@ section{
     background: rgba(11,172,181,1);;
 }
 
-/* Skills Section */
+/* Projects Section */
 
 .projects{
     font-family: 'Poppins', sans-serif;
@@ -376,7 +376,48 @@ section{
     100px 100px 80px rgba(0, 0, 0, 0.06);
 }
 
+/* Contacts Section */
+.contact{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(18deg,  rgb(59, 59, 59) 0%,  rgb(255, 255, 255) 32%);
+}
 
+.contact .contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .contact-content .field{
+    position: relative;
+}
+
+.contact .contact-content .art-input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+    color: #000000;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+
+.contact .contact-content .input-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transform-origin: left;
+    transition: transform .25s;
+}
+
+.contact .contact-content .art-input:focus+.input-label, .contact .contact-content .art-input:valid+.input-label{
+    transform: translate(0, -30px) scale(.8);
+    color: #d1c5fc;
+}
+
+.contact .contact-content .art-input:is(:focus, :valid){
+    outline-color: #d1c5fc;
+}
 
 
 /* Responsive media query*/
