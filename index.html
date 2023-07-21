@@ -58,7 +58,12 @@
                     <p>I'm a Developer and autodidact extremely motivated and passionate for tech, I like learn news
                         tech and skill.
                         I love the idea to create something for problem resolver, also I like the idea of design.</p>
-                    <a href="./src/CV.pdf">Download CV</a>
+                    <a class="cv" href="./src/CV.pdf">Download CV</a>
+                    <div class="social">
+                        <a target="_blank" href="https://www.linkedin.com/in/joancruz0502/"><img src="./src/projects/LIBug.png" alt=""></a>
+                        <a target="_blank" href="https://github.com/cr0s502"><img src="./src/projects/GithubBug.png" alt=""></a>
+                        <a target="_blank" href="https://twitter.com/cr0s502"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,15 +98,6 @@
                     </div>
                     <div class="card-skills">
                         <div class="img">
-                            <img src="./src/skills/flask2.png" alt="flask skill joan cruz" class="skill-icon">
-                        </div>
-                        <h3>Flask</h3>
-                        <p>
-                            
-                        </p>
-                    </div>
-                    <div class="card-skills">
-                        <div class="img">
                             <img src="./src/skills/nodejs.png" alt="flask skill joan cruz" class="skill-icon">
                         </div>
                         <h3>NodeJs</h3>
@@ -109,16 +105,12 @@
                             
                         </p>
                     </div>
-                    <div class="card-skills">
+                    <a target="_blank" class="card-skills button" href="https://www.freecodecamp.org/certification/cr0s502/back-end-development-and-apis"><div>
                         <div class="img">
                             <img src="./src/skills/express.png" alt="flask skill joan cruz" class="skill-icon">
                         </div>
                         <h3>ExpressJs</h3>
-                        <p>
-                            
-                            <a class="button" href="https://www.freecodecamp.org/certification/cr0s502/back-end-development-and-apis">Certificate</a>
-                        </p>
-                    </div>
+                    </div></a>
                     <div class="card-skills">
                         <div class="img">
                             <img src="./src/skills/vue.png" alt="flask skill joan cruz" class="skill-icon">
@@ -156,24 +148,19 @@
 
                         </p>
                     </div>
-                    <div class="card-skills">
-                        <div class="img">
-                            <img src="./src/skills/docker2.png" alt="flask skill joan cruz" class="skill-icon">
+                    <a target="_blank" class="card-skills button" href="https://kodekloud.com/certificate-verification/7C9F79AA7E-7C99752382-7C93E94F56/">
+                        <div >
+                            <div class="img">
+                                <img src="./src/skills/docker2.png" alt="flask skill joan cruz" class="skill-icon">
+                            </div>
+                            <h3>Docker</h3>
                         </div>
-                        <h3>Docker</h3>
-                        <p>
-
-                            <a class="button" href="https://kodekloud.com/certificate-verification/7C9F79AA7E-7C99752382-7C93E94F56/">Certificate</a>
-                        </p>
-                    </div>
+                    </a>
                     <div class="card-skills">
                         <div class="img">
                             <img src="./src/skills/Git.png" alt="flask skill joan cruz" class="skill-icon">
                         </div>
                         <h3>Git</h3>
-                        <p>
-
-                        </p>
                     </div>
                     <div class="card-skills">
                         <div class="img">
@@ -204,29 +191,36 @@
             <h2 class="title">Projects</h2>
             <div class="projects-content">
                 <div class="box-projects">
-                    <a target="_blank"  href="https://github.com/cr0s502/login-flask">
-                        <div class="card-project">
-                                <img src="./src/projects/loginFlask.png" alt="Login Flask & MySQL projetcs Joan Cruz">
-                                <h3>Login Flask & MySQL</h3>
-                                <p> This Projects is a little login were used flask, jinja, html, css, mysql, passwordHash and logger.</p>
+                    <div class="card-project">
+                        <a class="links" target="_blank" href="https://cr0s502.github.io/MyPortfolio/">
+                                <img src="./src/projects/Portfolio.png" alt="Login Flask & MySQL projetcs Joan Cruz">
+                                <h3>My PortFolio</h3>
+                                <p>Stack: HTML & CSS</p>
+                        </a>
+                        <div>
+                            <a target="_blank" class="repository" href="https://github.com/cr0s502/MyPortfolio">Github</a>
                         </div>
-                    </a>
-                    <a target="_blank" href="https://github.com/cr0s502/CRUD_FastAPI-Anaconda-Mysql">
-                        <div class="card-project">
+                    </div>
+                    <a target="_blank" class="card-project" href="https://github.com/cr0s502/CRUD_FastAPI-Anaconda-Mysql">
+                        <div>
                                 <img src="./src/projects/maxresdefault.jpg" alt="CRUD & MySQL Fast-API  projetcs  Joan Cruz">
                                 <h3>CRUD FastAPI & MySQL</h3>
                                 <p>This is a crud created in FastAPI & MySQL than manager one table of users with SQLAlchemy like ORM.</p>
                         </div>
                     </a>
-                    <a target="_blank" href="https://github.com/cr0s502/BackEnd_Notes_Projects">
-                        <div class="card-project">
-                            <img src="./src/projects/NodejsMongodbJWTAuthentication.png" alt="Backend Notes with ExpressJs, Mongodb, JWT, Express-Validator projetcs Joan Cruz">
-                            <h3>Notes Backend</h3>
-                            <p> This projects is manager users and notes for each user, which was logger, authenticated for create, update, get, and delete the notes.</p>
+                    <div class="card-project">
+                        <a class="links" target="_blank" href="https://cross-note.up.railway.app/">
+                            <img src="./src/projects/Note.png" alt="Backend Notes with ExpressJs, Mongodb, JWT, Express-Validator projetcs Joan Cruz">
+                            <h3>Notes</h3>
+                            <p>Stack: Frontend - VueJs, Pinia, TailwindCSS Backend - Express, JWT, MongoDB</p>
+                        </a>
+                        <div>
+                            <a target="_blank" class="repository" href="https://github.com/cr0s502/BackEnd_Notes_Projects">Github/Backend</a>
+                            <a  target="_blank" class="repository" href="https://github.com/cr0s502/-FrontEnd_Notes_Projects">Github/Frontend</a>
                         </div>
-                    </a>
-                    <a target="_blank" href="https://github.com/cr0s502/boilerplate-mongomongoose-1-">
-                        <div class="card-project">
+                    </div>
+                    <a target="_blank" class="card-project" href="https://github.com/cr0s502/boilerplate-mongomongoose-1-">
+                        <div>
                             <img src="./src/projects/mongoCrud.jpeg" alt="CRUD with ExpressJs & Mongodb projetcs Joan Cruz">
                             <h3>CRUD ExpressJs</h3>
                             <p>This CRUD is created by freeCodeCamp like challenger for the certificate Back End Development and APIs, where create ,get ,find ,update , delete People.</p>
@@ -241,31 +235,44 @@
         <div class="max-width">
             <h2 class="title">Contact</h2>
             <div class="contact-content">
-                <form action="">
+                <form action="/" method="POST">
                     <div class="field">
-                        <label for="name" class="input-label">Name</label>
-                        <input type="text" id="name" class="art-input" placeholder="Name" required>
+                        <label for="name" class="input-label">Name:</label>
+                        <input type="text" id="name" class="art-input" required>
                     </div>
                     <div class="field">
-                        <label for="email" class="input-label">Email</label>
-                        <input type="text" id="email" class="art-input" placeholder="Email" required>
+                        <label for="email" class="input-label">Email:</label>
+                        <input type="text" id="email" class="art-input"required>
                     </div>
                     <div class="field">
-                        <label for="subject" class="input-label">Subject</label>
-                        <input type="text" id="subject" class="art-input" placeholder="Subject" required>
+                        <label for="subject" class="input-label">Subject:</label>
+                        <input type="text" id="subject" class="art-input" required>
                     </div>
                     <div class="field">
-                        <label for="message" class="input-label">Message</label>
-                        <textarea type="text" id="message" class="art-input" placeholder="Message" required></textarea>
+                        <label for="message" class="input-label">Message:</label>
+                        <textarea type="text" id="message" class="art-input" rows="4" required></textarea>
                     </div>
                     <div class="submit">
-                        <button type="submit" ><span>Send Message</span></button>
+                        <button class="submit-contact" class="submit" id="submit" type="submit" ><span>Send Message</span></button>
                     </div>
                 </form>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <a target="_blank" href="https://github.com/cr0s502">
+                <img src="./src/projects/GitHub.png" alt="">
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/joancruz0502/">
+                <img src="./src/projects/LILarge.png" alt="">
+            </a>
+        </div>
+        <p>&copy; 2023 CrossDev | All Right Reserved</p>
 
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js">
+</script>
     <script src="./src/script.js"></script>
 
 </body>
