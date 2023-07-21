@@ -23,8 +23,9 @@ $(document).ready( () => {
         $('.menu-btn i').toggleClass("active")
     });
 
-    $('.submit').on('click', () => {
-
+    $('.submit').on('click', (event) => {
+        event.preventDefault();
+        
         var name = $('#name').val();
         var subject = $('#subject').val();
         var email = $('#email').val();
